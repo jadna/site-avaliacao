@@ -1,2 +1,14 @@
 {
+    "require": {
+        "components/jquery": "^3.5",
+        "components/bootstrap": "^4.5",
+        "silex/silex": "^2.0.4",
+        "monolog/monolog": "^1.22",
+        "twig/twig": "^2.0",
+        "symfony/twig-bridge": "^3"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    }
+      
 }
