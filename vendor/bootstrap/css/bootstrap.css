@@ -6727,10 +6727,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #000000 !important;
-  background-image: url(".../site-pesquisa/imagem1.jpg");
-  background-repeat: no-repeat;
-  background-size:100%;
+  background-color: #007bff !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
