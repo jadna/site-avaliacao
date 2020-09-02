@@ -1,6 +1,2 @@
 {
-    "require": {
-        "bower-asset/bootstrap":     "dev-master",
-        "bower-asset/jquery-2.1.0":  "2.1.0"
-    }
 }
