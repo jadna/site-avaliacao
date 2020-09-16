@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+    #map {
+      height: 100%;
+    }
+    /* Optional: Makes the sample page fill the window. */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+
+  <title>Recomendação de Pontos de Interesse para Grupos de Indivíduos</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Group Systems Recommendation for POI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="login.html">Login</a>
+                </li>
+            <!--li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#avaliacao"> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="https://www.mapdevelopers.com/what-is-my-address.php" target="_blank"> </a>
+            </li-->
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white" style="background-image: url(background.jpg);">
+        <div class="container text-center">
+        <h1>Avaliação Experimental</h1>
+        <h2>Recomendação de Pontos de Interesse para Grupos de Indivíduos</h2>
+        </div>
+    </header>
+
+    <form method="POST" action="cadastro.php">
+        <section id="cadastro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto" style="text-align: center;">
+                        <h2>Cadastro</h2>
+                        <label>Email: </label><input type="email" name="login" id="login" placehold="email" autofocus><br>
+                        <label>Senha: </label><input type="password" name="senha" id="senha" placehold="senha" autofocus><br>
+                        <input type="submit" value="cadastrar" id="cadastrar" name="cadastrar"><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </form>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Jadna Almeida</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
